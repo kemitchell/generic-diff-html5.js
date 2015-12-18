@@ -9,16 +9,16 @@ function genericDiffToHTML5(diff) {
         if (element.added) {
           return ( result + wrap('ins', element.string) ) }
         else if (element.removed) {
-          return (result + wrap('del', element.string) ) }
+          return ( result + wrap('del', element.string) ) }
         else {
           return ( result + escape(element.string) ) } },
       '') }
 
-function wrap(element, string) {
+function wrap(tag, string) {
   return (
-    '<' + element + '>' +
+    '<' + tag + '>' +
     escape(string) +
-    '</' + element + '>' ) }
+    '</' + tag + '>' ) }
 
 function combine(diff) {
   return diff
