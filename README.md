@@ -10,13 +10,10 @@ assert.equal(
       'Hello, Don. How are you?')),
   'Hello, <del>J</del><ins>D</ins>on. How are you?')
 
-function words(string) {
-  return string.split(/\b/) }
-
 assert.equal(
   html5(
     diff(
-      words('Hello, Jon. How are you?'),
-      words('Hello, Don. How are you?'))),
+      'Hello, Jon. How are you?'.split(/\b/),
+      'Hello, Don. How are you?'.split(/\b/))),
   'Hello, <del>Jon</del><ins>Don</ins>. How are you?')
 ```
