@@ -1,0 +1,8 @@
+{
+  "name": "generic-diff-html5",
+  "version": "0.0.0",
+  "description": "convert generic-diff patches to HTML5 snippets",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "repository": "kemitchell/generic-diff-html5.js",
+  "license": "MIT"
+}
