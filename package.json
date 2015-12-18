@@ -1,7 +1,7 @@
 {
   "name": "generic-diff-html5",
   "description": "convert generic-diff patches to HTML5 snippets",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "dependencies": {
     "html-escaping": "^1.0.1"
