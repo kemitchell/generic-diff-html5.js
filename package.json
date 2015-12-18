@@ -1,19 +1,19 @@
 {
   "name": "generic-diff-html5",
-  "version": "0.0.0",
   "description": "convert generic-diff patches to HTML5 snippets",
+  "version": "0.0.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
-  "repository": "kemitchell/generic-diff-html5.js",
-  "license": "MIT",
+  "dependencies": {
+    "html-escaping": "^1.0.1"
+  },
   "devDependencies": {
     "defence-cli": "^1.0.4",
     "generic-diff": "^1.0.0",
     "replace-require-self": "^1.0.1"
   },
+  "license": "MIT",
+  "repository": "kemitchell/generic-diff-html5.js",
   "scripts": {
     "test": "defence README.md | replace-require-self | node"
-  },
-  "dependencies": {
-    "html-escaping": "^1.0.1"
   }
 }
